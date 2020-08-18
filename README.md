@@ -1,9 +1,3 @@
----
-title: Welcome to Docs
-has_children: false
-nav_order: 0
----
-
 ## Welcome to Memcrab Pages
 
 🚀 🐼
