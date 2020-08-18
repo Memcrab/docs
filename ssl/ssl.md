@@ -2,27 +2,30 @@
 title: SSL (https)
 has_children: false
 nav_order: 2
+---
+
+# SSL (https)
+{: .no_toc}
 
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
----
 
-## Generate root certificate
+# Generate root certificate
 
 Generate Root Cert to sign all future certificates
 `$ openssl genrsa -out ca.key 4096`
 
-# Generate root certificate
+# Generate domain certificate
 
 Generate certificate with respect to restriction by apple policy mentioned in this article
-	`http://blog.nashcom.de/nashcomblog.nsf/dx/more-strict-server-certificate-handling-in-ios-13-macos-10.15.htm?opendocument&comments`
+	```http://blog.nashcom.de/nashcomblog.nsf/dx/more-strict-server-certificate-handling-in-ios-13-macos-10.15.htm?opendocument&comments```
 * By one line command
-	`$ openssl x509 -req -sha256 -days 800 -in server.csr -CA ca.crt -CAkey ca.key -out server.crt -CAcreateserial -extfile <(printf "extendedKeyUsage = serverAuth \n subjectAltName=DNS:tnl.api.dev,DNS:tnl.app.dev")`
+	```$ openssl x509 -req -sha256 -days 800 -in server.csr -CA ca.crt -CAkey ca.key -out server.crt -CAcreateserial -extfile <(printf "extendedKeyUsage = serverAuth \n subjectAltName=DNS:tnl.api.dev,DNS:tnl.app.dev")```
 * Or by using config file inside command
-	`$ openssl req -x509 -nodes -days 730 -newkey rsa:2048 -keyout api.https.key -out api.https.crt -config api.openssh.conf -extensions 'v3_req'`
+	```$ openssl req -x509 -nodes -days 730 -newkey rsa:2048 -keyout api.https.key -out api.https.crt -config api.openssh.conf -extensions 'v3_req'```
 	Config file:
 		```[req]
 		distinguished_name = req_distinguished_name
