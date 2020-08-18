@@ -58,7 +58,7 @@ Generate certificate with respect to restriction by apple policy mentioned in [t
 * Asterisk (that presented in Config file) used to accept all subdomains. It was not tested as working version on iOS. iOS was tested by us only with dirrect DNS records as placed at 1 version of command.
 
 # Activate Certificates on OS X
-	* add `ca.crt` and `server.crt` add to keychain tool and switch it as Always trusted - works for all browsers
+add `ca.crt` and `server.crt` add to keychain tool and switch it as Always trusted - works for all browsers
 
 # Activate certificates locally on iOS and iPad OS
 - install `Apple Configurator` app to your MacOS 
