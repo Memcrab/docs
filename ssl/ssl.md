@@ -16,16 +16,22 @@ nav_order: 2
 # Generate root certificate
 
 Generate Root Cert to sign all future certificates
+
 `$ openssl genrsa -out ca.key 4096`
 
 # Generate domain certificate
 
-Generate certificate with respect to restriction by apple policy mentioned in this article
-	```http://blog.nashcom.de/nashcomblog.nsf/dx/more-strict-server-certificate-handling-in-ios-13-macos-10.15.htm?opendocument&comments```
+Generate certificate with respect to restriction by apple policy mentioned in [this article](http://blog.nashcom.de/nashcomblog.nsf/dx/more-strict-server-certificate-handling-in-ios-13-macos-10.15.htm?opendocument&comments){: .btn .btn-blue }
+
 * By one line command
-	```$ openssl x509 -req -sha256 -days 800 -in server.csr -CA ca.crt -CAkey ca.key -out server.crt -CAcreateserial -extfile <(printf "extendedKeyUsage = serverAuth \n subjectAltName=DNS:tnl.api.dev,DNS:tnl.app.dev")```
+	```
+	$ openssl x509 -req -sha256 -days 800 -in server.csr -CA ca.crt -CAkey ca.key -out server.crt -CAcreateserial -extfile <(printf "extendedKeyUsage = serverAuth \n subjectAltName=DNS:tnl.api.dev,DNS:tnl.app.dev")
+	```
 * Or by using config file inside command
-	```$ openssl req -x509 -nodes -days 730 -newkey rsa:2048 -keyout api.https.key -out api.https.crt -config api.openssh.conf -extensions 'v3_req'```
+	```
+	$ openssl req -x509 -nodes -days 730 -newkey rsa:2048 -keyout api.https.key -out api.https.crt -config api.openssh.conf -extensions 'v3_req'
+	```
+	
 	Config file:
 		```[req]
 		distinguished_name = req_distinguished_name
@@ -45,7 +51,7 @@ Generate certificate with respect to restriction by apple policy mentioned in th
 		[alt_names]
 		DNS.1 = *.app.dev
 		DNS.2 = *.api.dev```
-** Asteriks to accept all subdomains (that presented in 2.b.) was not tested as working version on iOS. iOS was working only with dirrect DNS records as placed at 2.a.
+* Asterisk to accept all subdomains (that presented in 2.b.) was not tested as working version on iOS. iOS was working only with dirrect DNS records as placed at 2.a.
 
 # Activate Certificates on OS X
 	* add `ca.crt` and `server.crt` add to keychain tool and switch it as Always trusted - works for all browsers
