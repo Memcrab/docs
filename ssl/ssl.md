@@ -63,8 +63,8 @@ Generate certificate with respect to restriction by apple policy mentioned in th
 	* need to be provided
 
 # Activate Certificates in FireFox:
-* Open settings
-* Privacy and security
-* Authorities
-* Add Root certificate ca.crt
-* Restart browser
+	* Open settings
+	* Privacy and security
+	* Authorities
+	* Add Root certificate ca.crt
+	* Restart browser
