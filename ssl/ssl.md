@@ -2,9 +2,15 @@
 title: SSL (https)
 has_children: false
 nav_order: 2
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 ---
 
-# Generate root certificate
+## Generate root certificate
 
 Generate Root Cert to sign all future certificates
 `$ openssl genrsa -out ca.key 4096`
