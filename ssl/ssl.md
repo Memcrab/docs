@@ -55,6 +55,7 @@ Generate certificate with respect to restriction by apple policy mentioned in [t
 	DNS.1 = *.app.dev
 	DNS.2 = *.api.dev
 	```
+	
 * Asterisk (that presented in Config file) used to accept all subdomains. It was not tested as working version on iOS. iOS was tested by us only with dirrect DNS records as placed at 1 version of command.
 
 # Activate Certificates on OS X
