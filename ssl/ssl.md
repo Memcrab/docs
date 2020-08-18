@@ -17,11 +17,13 @@ nav_order: 2
 
 Generate Root Cert to sign all future certificates
 
-`$ openssl genrsa -out ca.key 4096`
+```
+$ openssl genrsa -out ca.key 4096
+```
 
 # Generate domain certificate
 
-Generate certificate with respect to restriction by apple policy mentioned in [this article](http://blog.nashcom.de/nashcomblog.nsf/dx/more-strict-server-certificate-handling-in-ios-13-macos-10.15.htm?opendocument&comments){: .btn .btn-blue }
+Generate certificate with respect to restriction by apple policy mentioned in [this article](http://blog.nashcom.de/nashcomblog.nsf/dx/more-strict-server-certificate-handling-in-ios-13-macos-10.15.htm?opendocument&comments)
 
 * By one line command
 	```
@@ -33,24 +35,26 @@ Generate certificate with respect to restriction by apple policy mentioned in [t
 	```
 	
 	Config file:
-		```[req]
-		distinguished_name = req_distinguished_name
-		x509_extensions = v3_req
-		prompt = no
-		[req_distinguished_name]
-		C = US
-		ST = New York
-		L = New York
-		O = memCrab
-		OU = memCrab
-		CN = *.app.dev
-		[v3_req]
-		keyUsage = keyEncipherment, dataEncipherment
-		extendedKeyUsage = serverAuth
-		subjectAltName = @alt_names
-		[alt_names]
-		DNS.1 = *.app.dev
-		DNS.2 = *.api.dev```
+	```
+	[req]
+	distinguished_name = req_distinguished_name
+	x509_extensions = v3_req
+	prompt = no
+	[req_distinguished_name]
+	C = US
+	ST = New York
+	L = New York
+	O = memCrab
+	OU = memCrab
+	CN = *.app.dev
+	[v3_req]
+	keyUsage = keyEncipherment, dataEncipherment
+	extendedKeyUsage = serverAuth
+	subjectAltName = @alt_names
+	[alt_names]
+	DNS.1 = *.app.dev
+	DNS.2 = *.api.dev
+	```
 * Asterisk to accept all subdomains (that presented in 2.b.) was not tested as working version on iOS. iOS was working only with dirrect DNS records as placed at 2.a.
 
 # Activate Certificates on OS X
