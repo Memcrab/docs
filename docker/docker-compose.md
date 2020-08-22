@@ -24,7 +24,7 @@ All services in detailes described in `docker-compose.yaml` for each service
 ```terminal
 127.0.0.1 api.doamin.dev app.doamin.dev
 ```
-2. Be sure that `SSL` certificates from current project already installed to your Operations system or your browser or even both places. More detail about your case of configuration you can fins in HTTPS/SSL articles here
+2. Be sure that `SSL` certificates from current project already installed to your Operations system or your browser or even both places. More detail about your case of configuration you can find in HTTPS/SSL articles here
 
 ## Port blocking or port already in use
 Please check and be sure that all "NON Docker" local MySQL, Redis, nginx and similar services turned off or stopped before start docker containers
@@ -47,12 +47,12 @@ $ docker-compose up -d
 
 * Run only `npm install` command:
 ```terminal
-$ docker-compose run --rm node npm install
+$ docker-compose run --rm nodejs_container_name npm install
 ```
 
 * Apply all migrations to docker Database:
 ```terminal
-$ docker-compose run --rm api phinx migrate
+$ docker-compose run --rm api_container_name phinx migrate
 ```
 
 * Stop all services
@@ -65,30 +65,30 @@ $ docker-compose stop
 $ docker-compose down
 ```
 
-## Run costum command in container
+## Run custom command in container
 
 * Run any command inside docker container environment:
 
 ```terminal
-$ docker-compose run api your_terminal_command_here
+$ docker-compose run container_name your_terminal_command_here
 ```
 
 example: 
 
 ```terminal
-$ docker-compose run --rm app npm run update-schema
+$ docker-compose run --rm container_name npm run update-schema
 ```
 
 * Run any multiple commands inside docker environment:
 
 ```terminal
-$ docker-compose run --rm api bash -c "your_terminal_command_1 && your_terminal_command_2 && your_terminal_command_3"
+$ docker-compose run --rm container_name bash -c "your_terminal_command_1 && your_terminal_command_2 && your_terminal_command_3"
 ```
 
 example: 
 
 ```terminal
-$ docker-compose run --rm node bash -c "cd packages && npm run update-schema"
+$ docker-compose run --rm app_container_name bash -c "cd packages && npm run update-schema && npm run build"
 ```
 
 ## Run only backend
@@ -96,7 +96,7 @@ $ docker-compose run --rm node bash -c "cd packages && npm run update-schema"
 Run only API with DB and Redis:
 
 ```terminal
-$ docker-compose run --rm  -d --service-ports api
+$ docker-compose run --rm  -d --service-ports api_container_name
 ```
 
 In this case DB and Redis will start automatically by `depends_on` directive inside `docker-comose.yaml` config for `api` container.
@@ -107,7 +107,7 @@ Where:
 
 ## Check containers
 
-Check which containers runned already and look to `healthy` status:
+Check which containers already running and look at `healthy` status:
 
 ```terminal
 $ docker-compose ps
@@ -118,5 +118,5 @@ $ docker-compose ps
 Follow logs from one of containers
 
 ```terminal
-$ docker-compose logs -f api
+$ docker-compose logs -f container_name
 ```
