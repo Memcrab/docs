@@ -1,6 +1,6 @@
 ---
-parent: Docker Compose
-title: Ubuntu
+parent: Docker
+title: Docker Compose
 ---
 
 # Docker Compose usage
