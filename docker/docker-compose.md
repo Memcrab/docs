@@ -66,11 +66,11 @@ $ docker-compose down
 ```
 
 ## Run costum command in container
+
 * Run any command inside docker container environment:
 
 ```terminal
-$ docker-compose run build your_terminal_command_here
-
+$ docker-compose run api your_terminal_command_here
 ```
 
 example: 
@@ -83,7 +83,6 @@ $ docker-compose run --rm app npm run update-schema
 
 ```terminal
 $ docker-compose run --rm api bash -c "your_terminal_command_1 && your_terminal_command_2 && your_terminal_command_3"
-
 ```
 
 example: 
@@ -93,11 +92,11 @@ $ docker-compose run --rm node bash -c "cd packages && npm run update-schema"
 ```
 
 ## Run only backend
+
 Run only API with DB and Redis:
 
 ```terminal
 $ docker-compose run --rm  -d --service-ports api
-
 ```
 
 In this case DB and Redis will start automatically by `depends_on` directive inside `docker-comose.yaml` config for `api` container.
@@ -112,7 +111,6 @@ Check which containers runned already and look to `healthy` status:
 
 ```terminal
 $ docker-compose ps
-
 ```
 
 ## Check Containers logs
@@ -121,5 +119,4 @@ Follow logs from one of containers
 
 ```terminal
 $ docker-compose logs -f api
-
 ```
