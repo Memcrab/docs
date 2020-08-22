@@ -7,7 +7,7 @@ title: MySQL Users Permissions
 
 ## How to Create a New User
 
-```mysql
+```sql
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 ```
 
@@ -17,7 +17,7 @@ At this point newuser has no permissions to do anything with the databases. In f
 
 Therefore, the first thing to do is to provide the user with access to the information they will need.
 
-```mysql
+```sql
 GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 ```
 
@@ -27,7 +27,7 @@ Please note that in this example we are granting newuser full root access to eve
 
 Once you have finalized the permissions that you want to set up for your new users, always be sure to reload all the privileges.
 
-```mysql
+```sql
 FLUSH PRIVILEGES;
 ```
 
@@ -48,7 +48,7 @@ Here is a short list of other common possible permissions that users can enjoy.
 
 To provide a specific user with a permission, you can use this framework:
 
-```mysql
+```sql
 GRANT type_of_permission ON database_name.table_name TO ‘username’@'localhost’;
 ```
 
@@ -58,7 +58,7 @@ Each time you update or change a permission be sure to use the Flush Privileges 
 
 If you need to revoke a permission, the structure is almost identical to granting it:
 
-```mysql
+```sql
 REVOKE type_of_permission ON database_name.table_name FROM ‘username’@‘localhost’;
 ```
 
@@ -66,19 +66,19 @@ Note that when revoking permissions, the syntax requires that you use `FROM`, in
 
 You can review a user’s current permissions by running the following:
 
-```mysql
+```sql
 SHOW GRANTS username;
 ```
 
 Just as you can delete databases with DROP, you can use DROP to delete a user altogether:
 
-```mysql
+```sql
 DROP USER ‘username’@‘localhost’;
 ```
 
 To test out your new user, log out by typing:
 
-```mysql
+```sql
 quit
 ```
 
