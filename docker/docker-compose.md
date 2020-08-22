@@ -12,16 +12,14 @@ title: Docker Compose
 1. TOC
 {:toc}
 
-# All Docker Issues and Configuration moments
-
-## Example of run as local Docker services:
+# Example of Docker services availability on Host Machine
 * MySQL (Docker Host: `db:3306`) available from host machine by `localhost:3306`
 * Reis (Docker Host: `cache:6379`) available from host machine by `localhost:6379`
 * API (Docker Host: `api:80`) available from host machine by nginx (`web:443`) container by URL `http://api.domain.dev` or `http://domain.dev/api`
 * APP (Docker Host: `app:3000`) available from host machine by nginx (`web:443`) container by URL `http://app.domain.dev` or `http://domain.dev`
 All services in detailes described in `docker-compose.yaml` for each service
 
-## Local browser configuration
+# Local browser configuration
 1. To use access to docker services from local Browser you need to add new line to local `/etc/hosts` file:
 ```terminal
 127.0.0.1 api.doamin.dev app.doamin.dev
@@ -69,38 +67,49 @@ $ docker-compose down
 
 ## Run costum command in container
 * Run any command inside docker container environment:
+
 ```terminal
 $ docker-compose run build your_terminal_command_here
 
 ```
+
 example: 
+
 ```terminal
 $ docker-compose run --rm app npm run update-schema
 ```
 
 * Run any multiple commands inside docker environment:
+
 ```terminal
 $ docker-compose run --rm api bash -c "your_terminal_command_1 && your_terminal_command_2 && your_terminal_command_3"
 
 ```
+
 example: 
+
 ```terminal
 $ docker-compose run --rm node bash -c "cd packages && npm run update-schema"
 ```
 
 ## Run only backend
 Run only API with DB and Redis:
+
 ```terminal
 $ docker-compose run --rm  -d --service-ports api
 
 ```
+
 In this case DB and Redis will start automatically by `depends_on` directive inside `docker-comose.yaml` config for `api` container.
 Where:
+
 * `--service-ports` - provide open ports to be available from Host Machine.
 * `-d` - run this containers in detouched (background) mode
 
 ## Check containers
+
 Check which containers runned already and look to `healthy` status:
+
 ```terminal
 $ docker-compose ps
 
