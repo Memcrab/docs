@@ -34,7 +34,7 @@ The following errors might pop up if you have been using MySQL 8 with PHP 7.3 or
 
 check your version of php `php -v` and upgrade it to 7.4 or upper. With the upgrade to 7.4, PHP natively supports the new default authentication plugin `caching_sha2_password`.
 
-## Solution 2: Chsnge Auth method to older one
+## Solution 2: Change Auth method to older one
 
 1. Connect to the database as root
 2. Check existing authentication plugin:
@@ -57,9 +57,9 @@ Sample output
 ```
 The easiest way to fix that would be to alter your existing user with the following:
 ```sql
-ALTER USER myuser IDENTIFIED WITH mysql_native_password BY 'mypassword';
+mysql> ALTER USER myuser IDENTIFIED WITH mysql_native_password BY 'mypassword';
 ```
 Another thing that you could do is to create a new user with mysql_native_password. To do that you could use the following:
 ```sql
-CREATE USER 'your_user'@'your_server_ip ' IDENTIFIED WITH mysql_native_password BY 'your_password';
+mysql> CREATE USER 'your_user'@'your_server_ip ' IDENTIFIED WITH mysql_native_password BY 'your_password';
 ```
