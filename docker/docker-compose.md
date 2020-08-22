@@ -14,7 +14,7 @@ title: Docker Compose
 
 # Example of Docker services availability on Host Machine
 * MySQL (Docker Host: `db:3306`) available from host machine by `localhost:3306`
-* Reis (Docker Host: `cache:6379`) available from host machine by `localhost:6379`
+* Redis (Docker Host: `cache:6379`) available from host machine by `localhost:6379`
 * API (Docker Host: `api:80`) available from host machine by nginx (`web:443`) container by URL `http://api.domain.dev` or `http://domain.dev/api`
 * APP (Docker Host: `app:3000`) available from host machine by nginx (`web:443`) container by URL `http://app.domain.dev` or `http://domain.dev`
 All services in detailes described in `docker-compose.yaml` for each service
