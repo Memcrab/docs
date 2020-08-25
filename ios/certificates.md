@@ -1,6 +1,6 @@
 ---
 parent: iOS
-title: Rsync/Lsync
+title: Certificates
 ---
 
 # All Certificates guidlines
