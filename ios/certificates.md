@@ -56,7 +56,7 @@ Where `passwords` - your current pass phrase for generated certificate
 
 Response example:
 
-```Terminal
+```
 CONNECTED(00000006)
 depth=2 O = Entrust.net, OU = www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), OU = (c) 1999 Entrust.net Limited, CN = Entrust.net Certification Authority (2048)
 verify return:1
