@@ -110,7 +110,6 @@ SSL-Session:
     Timeout   : 7200 (sec)
     Verify return code: 0 (ok)
 ---
-
 ```
 
 [source](https://www.youtube.com/watch?v=3HGPnuiLHM0)
