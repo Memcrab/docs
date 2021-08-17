@@ -52,6 +52,10 @@ title: Backend
 ## Personal Data
 ## Cache Level
 
+# Git for teams
+* Пройти игру по Git полностью с пониманием - https://learngitbranching.js.org
+* Изучить принципы git Flow https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
 # Queues RabbitMQ 
 * обсудить:
 	* примеры использования в бизнес кейсах
