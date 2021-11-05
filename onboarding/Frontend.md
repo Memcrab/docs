@@ -13,8 +13,10 @@ title: Frontend Onboarding
 
 ## Совместная работа
 - Git
+- Docker
 - CI/CD
 - Husky
+- eslint-config-memcrab
 
 ## Асинхронная догрузка модулей
 - chunking
@@ -25,14 +27,36 @@ title: Frontend Onboarding
 - RAF
 - Headers Cache-control
 
+## HTML/CSS
+- Images lazy load (html)
+- Размеры в CSS (em, rem, pt, px, vw, vh, etc)
+- Scroll snap
+- css variables
+- GPU accelerated animations
+- Canvas, SVG
+- Adaptation for Retina displays
+- Lighthouse/pagespeed
+- Accessebility
 
 ## Javascript/Typescript
+- ES 2016+
+	- Async Generators
+- Browsers API
 - Видео по архитектуре
-- Async Generators
+- Custom Errors classes
 - Typescript — полностью вся документация. Понимание когда type, а когда interface. Понимание работы generic и умение писать свои. Уметь типизировать все стандартные конструкции map, reduce, Object.keys
 - Typescript Generic
 - Zod — либа для валидации данных. Научиться интегрирвать с TS и писать как будто писал всю жизнь схема
 
 
+## React
+- NodeJs
+	- http
+	- qs
+- React SSR
+- React router
+
 ## Тестирование
 - Jest — snapshot, act и остальные части докумнетации. Попробовать написать для тестового. Эмулиция кликов и прочих взаимодействий без использования enzyme, только react-test-renderer и jest
+- react-test-renderer
+- jest mocks for fetch, cookies, etc

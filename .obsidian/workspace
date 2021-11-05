@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "onboarding/Frontend.md",
+            "file": "onboarding/React Native.md",
             "mode": "source"
           }
         }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "onboarding/Frontend.md",
+                "file": "onboarding/React Native.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "onboarding/Frontend.md"
+                "file": "onboarding/React Native.md"
               }
             }
           },
@@ -151,15 +151,15 @@
   },
   "active": "f6c096015eb332db",
   "lastOpenFiles": [
-    "onboarding/Frontend.md",
     "onboarding/React Native.md",
+    "grafana/loki-configs.md",
+    "grafana/loki.md",
+    "onboarding/Frontend.md",
     "onboarding/onboarding.md",
     "Readme.md",
     "index.md",
     "Developers/Руслан Тисанюк.md",
     "onboarding/backend.md",
-    "onboardings/onboardings.md",
-    "mysql/mysql8.md",
-    "mysql/mysql.md"
+    "onboardings/onboardings.md"
   ]
 }
