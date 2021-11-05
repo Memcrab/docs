@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "onboardings/React Native Onboarding.md",
+            "file": "onboardings/onboardings.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "onboardings/React Native Onboarding.md",
+                "file": "onboardings/onboardings.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "onboardings/React Native Onboarding.md"
+                "file": "onboardings/onboardings.md"
               }
             }
           },
@@ -140,6 +140,7 @@
   },
   "active": "f6c096015eb332db",
   "lastOpenFiles": [
+    "onboardings/onboardings.md",
     "onboardings/React Native Onboarding.md",
     "onboarding/backend.md",
     "onboarding/onboarding.md",
@@ -148,7 +149,6 @@
     "mysql/manage-users-permissions.md",
     "index.md",
     "Readme.md",
-    "Developers/👉 Все разработчики.md",
-    "Developers/Максим Кучер.md"
+    "Developers/👉 Все разработчики.md"
   ]
 }
