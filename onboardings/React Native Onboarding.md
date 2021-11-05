@@ -1,6 +1,8 @@
 ---
 author: Viktor Kravchuk
 tags: onboarding, react-native
+parent: onboardings
+title: React Native Onboarding
 ---
 
 # React Native Onboarding

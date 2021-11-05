@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Readme.md",
+            "file": "onboardings/React Native Onboarding.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "onboardings/React Native Onboarding.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "onboardings/React Native Onboarding.md"
               }
             }
           },
@@ -140,15 +140,15 @@
   },
   "active": "f6c096015eb332db",
   "lastOpenFiles": [
-    "Readme.md",
     "onboardings/React Native Onboarding.md",
     "onboarding/backend.md",
     "onboarding/onboarding.md",
+    "mysql/mysql8.md",
+    "mysql/mysql.md",
+    "mysql/manage-users-permissions.md",
+    "index.md",
+    "Readme.md",
     "Developers/👉 Все разработчики.md",
-    "Developers/Максим Кучер.md",
-    "Developers/Максим Загорский.md",
-    "Developers/Владислав Кучерявый.md",
-    "Developers/Руслан Тисанюк.md",
-    "React Native Onboarding.md"
+    "Developers/Максим Кучер.md"
   ]
 }
