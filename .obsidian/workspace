@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Readme.md",
+            "file": "onboarding/Frontend.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "cf01fe9017cf93db",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "onboarding/React Native.md",
             "mode": "source"
           }
         }
@@ -76,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "onboarding/Frontend.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -93,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "onboarding/Frontend.md"
               }
             }
           },
@@ -140,15 +151,15 @@
   },
   "active": "f6c096015eb332db",
   "lastOpenFiles": [
+    "onboarding/Frontend.md",
+    "onboarding/React Native.md",
+    "onboarding/onboarding.md",
     "Readme.md",
     "index.md",
-    "onboarding/React Native.md",
     "Developers/Руслан Тисанюк.md",
     "onboarding/backend.md",
-    "onboarding/onboarding.md",
     "onboardings/onboardings.md",
     "mysql/mysql8.md",
-    "mysql/mysql.md",
-    "mysql/manage-users-permissions.md"
+    "mysql/mysql.md"
   ]
 }
