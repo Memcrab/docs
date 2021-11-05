@@ -1,11 +1,11 @@
 ---
 author: Viktor Kravchuk
 tags: onboarding, react-native
-parent: onboardings
+parent: onboarding
 title: React Native Onboarding
 ---
 
-# React Native Onboarding
+# React Native
 
 ## Как работать с документом
 
