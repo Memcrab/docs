@@ -1,0 +1,78 @@
+{
+  "main": {
+    "id": "a604f44997c10a50",
+    "type": "split",
+    "children": [
+      {
+        "id": "90b5bc92e7e6ebc3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "React Native Onboarding.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be523f9a3e018ca9",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "84e63839475d8079",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "906e1301179eec20",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "3769cb7d5c39993a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a97d46d1e85ccb9e",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "React Native Onboarding.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "90b5bc92e7e6ebc3",
+  "lastOpenFiles": [
+    "React Native Onboarding.md"
+  ]
+}

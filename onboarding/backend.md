@@ -3,7 +3,7 @@ parent: Onboarding
 title: Backend
 ---
 
-# Backend Onboarding
+# backend
 {: .no_toc}
 
 ## Table of contents

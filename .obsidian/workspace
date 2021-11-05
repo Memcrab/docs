@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "2f2462c35ddf7e3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6c096015eb332db",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Readme.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d3820df55b196ed6",
+    "type": "split",
+    "children": [
+      {
+        "id": "86502c8a7ec30ec4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc0b81cd0fa64fb7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7a4ab0d3523719c5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#onboarding",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "48225067123ecfa2",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 252
+  },
+  "right": {
+    "id": "efc6abf5b4e944bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad175a3a8691b780",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48d369ffe3aa2253",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Readme.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "82e86315f544f9f3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Readme.md"
+              }
+            }
+          },
+          {
+            "id": "4a86fc9f5075e90b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3142283d3b1e726a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "5184bc28fde44c25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3395071edfa8a21c",
+            "type": "leaf",
+            "state": {
+              "type": "ob_comments",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f6c096015eb332db",
+  "lastOpenFiles": [
+    "Readme.md",
+    "onboardings/React Native Onboarding.md",
+    "onboarding/backend.md",
+    "onboarding/onboarding.md",
+    "Developers/👉 Все разработчики.md",
+    "Developers/Максим Кучер.md",
+    "Developers/Максим Загорский.md",
+    "Developers/Владислав Кучерявый.md",
+    "Developers/Руслан Тисанюк.md",
+    "React Native Onboarding.md"
+  ]
+}
