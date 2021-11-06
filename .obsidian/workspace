@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f6c096015eb332db",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "onboarding/React Native.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "cf01fe9017cf93db",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "onboarding/React Native.md",
+            "file": "Readme.md",
             "mode": "source"
           }
         }
@@ -29,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d3820df55b196ed6",
+    "id": "4e11b1f31a01aaa6",
     "type": "split",
     "children": [
       {
-        "id": "86502c8a7ec30ec4",
+        "id": "a0db91a6236ce0ad",
         "type": "tabs",
         "children": [
           {
-            "id": "dc0b81cd0fa64fb7",
+            "id": "90970e6260272ce8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -45,12 +34,12 @@
             }
           },
           {
-            "id": "7a4ab0d3523719c5",
+            "id": "5b3178d071e8cbfe",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#onboarding",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,7 +49,7 @@
             }
           },
           {
-            "id": "48225067123ecfa2",
+            "id": "e0a7e192281fe817",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -71,45 +60,35 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 300
   },
   "right": {
-    "id": "efc6abf5b4e944bb",
+    "id": "2779098ffa65d21d",
     "type": "split",
     "children": [
       {
-        "id": "ad175a3a8691b780",
+        "id": "0dc8f4ce0fa1b721",
         "type": "tabs",
         "children": [
           {
-            "id": "48d369ffe3aa2253",
+            "id": "004deb1660d16fba",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "onboarding/React Native.md",
+                "file": "Readme.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "82e86315f544f9f3",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "onboarding/React Native.md"
-              }
-            }
-          },
-          {
-            "id": "4a86fc9f5075e90b",
+            "id": "b741e859e50c1e73",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,26 +99,13 @@
             }
           },
           {
-            "id": "3142283d3b1e726a",
+            "id": "bd4099fcf947a92d",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "5184bc28fde44c25",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3395071edfa8a21c",
-            "type": "leaf",
-            "state": {
-              "type": "ob_comments",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "Readme.md"
+              }
             }
           }
         ]
@@ -149,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f6c096015eb332db",
+  "active": "cf01fe9017cf93db",
   "lastOpenFiles": [
-    "onboarding/React Native.md",
-    "grafana/loki-configs.md",
-    "grafana/loki.md",
-    "onboarding/Frontend.md",
-    "onboarding/onboarding.md",
     "Readme.md",
-    "index.md",
+    "onboarding/React Native.md",
     "Developers/Руслан Тисанюк.md",
+    "Readme.md",
     "onboarding/backend.md",
-    "onboardings/onboardings.md"
+    "onboarding/Frontend.md",
+    "Design/Design Checklist.md",
+    "grafana/loki.md",
+    "Developers/Максим Кучер.md",
+    "Developers/Максим Загорский.md"
   ]
 }
