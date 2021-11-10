@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Readme.md",
+            "file": "Private/Recruitment/Backend/Dots Squire Testing Task.md",
             "mode": "source"
           }
         }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4e11b1f31a01aaa6",
+    "id": "e804afe1e4104fe8",
     "type": "split",
     "children": [
       {
-        "id": "a0db91a6236ce0ad",
+        "id": "e49c384f8fdefdc7",
         "type": "tabs",
         "children": [
           {
-            "id": "90970e6260272ce8",
+            "id": "07d6c39714e460a6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "5b3178d071e8cbfe",
+            "id": "a15935c6a40283bb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -49,7 +49,7 @@
             }
           },
           {
-            "id": "e0a7e192281fe817",
+            "id": "0c78556ee9c98b17",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -63,20 +63,20 @@
     "width": 300
   },
   "right": {
-    "id": "2779098ffa65d21d",
+    "id": "8a0e250f49b84172",
     "type": "split",
     "children": [
       {
-        "id": "0dc8f4ce0fa1b721",
+        "id": "f33899af3a843d8c",
         "type": "tabs",
         "children": [
           {
-            "id": "004deb1660d16fba",
+            "id": "3ccea5e7b64d1051",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Private/Recruitment/Backend/Dots Squire Testing Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             }
           },
           {
-            "id": "b741e859e50c1e73",
+            "id": "15ec81aa0f06a854",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -99,12 +99,12 @@
             }
           },
           {
-            "id": "bd4099fcf947a92d",
+            "id": "7893591d540bc215",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Private/Recruitment/Backend/Dots Squire Testing Task.md"
               }
             }
           }
@@ -117,15 +117,15 @@
   },
   "active": "cf01fe9017cf93db",
   "lastOpenFiles": [
-    "Readme.md",
-    "onboarding/React Native.md",
-    "Developers/Руслан Тисанюк.md",
-    "Readme.md",
+    "Private/Recruitment/Backend/Dots Squire Testing Task.md",
+    "Private/Developers/Руслан Тисанюк.md",
+    "Private/Developers/Владислав Кучерявый.md",
     "onboarding/backend.md",
+    "onboarding/onboarding.md",
     "onboarding/Frontend.md",
     "Design/Design Checklist.md",
     "grafana/loki.md",
-    "Developers/Максим Кучер.md",
-    "Developers/Максим Загорский.md"
+    "onboarding/React Native.md",
+    "Private/Developers/Максим Кучер.md"
   ]
 }
