@@ -1,3 +1,10 @@
+---
+author: Max Mykhailenko
+tags: onboarding
+parent: Onboarding
+title: 👉 Soft Baseline
+---
+
 # 👉 Soft Baseline
 
 ## Принципы коммуникации

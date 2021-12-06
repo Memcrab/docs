@@ -3,7 +3,7 @@ parent: Docker
 title: Docker Compose
 ---
 
-# Docker Compose usage
+# docker-compose
 {: .no_toc}
 
 ## Table of contents

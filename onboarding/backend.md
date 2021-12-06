@@ -3,7 +3,7 @@ parent: Onboarding
 title: Backend
 ---
 
-# backend
+# Backend
 {: .no_toc}
 
 ## Table of contents
@@ -179,3 +179,43 @@ title: Backend
 * Place video in frames
 * Recover damaged files
 
+# VSCODE
+## plugins
+	Name: Docker
+	Id: ms-azuretools.vscode-docker
+	Description: Makes it easy to create, manage, and debug containerized applications.
+	Version: 1.18.0
+	Publisher: Microsoft
+	VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+	
+	
+	Name: Jira and Bitbucket (Atlassian Labs)
+	Id: atlassian.atlascode
+	Description: Bringing the power of Jira and Bitbucket to VS Code - With Atlassian for VS Code you can create and view issues, start work on issues, create pull requests, do code reviews, start builds, get build statuses and more!
+	Version: 2.10.0
+	Publisher: Atlassian
+	VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode
+	
+	
+	Name: PHP Intelephense
+	Id: bmewburn.vscode-intelephense-client
+	Description: PHP code intelligence for Visual Studio Code
+	Version: 1.8.0
+	Publisher: Ben Mewburn
+	VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
+	
+	
+	Name: Psalm (PHP Static Analysis Linting Machine)
+	Id: getpsalm.psalm-vscode-plugin
+	Description: VS Code Plugin for Psalm
+	Version: 2.4.0
+	Publisher: Psalm
+	VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=getpsalm.psalm-vscode-plugin
+	
+	
+	Name: Todo Tree
+	Id: gruntfuggly.todo-tree
+	Description: Show TODO, FIXME, etc. comment tags in a tree view
+	Version: 0.0.214
+	Publisher: Gruntfuggly
+	VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree

@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "2f2462c35ddf7e3e",
+    "id": "131d768c657dbba5",
     "type": "split",
     "children": [
       {
-        "id": "cf01fe9017cf93db",
+        "id": "902491616f8b37cc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Private/Recruitment/Backend/Dots Squire Testing Task.md",
+            "file": "Onboarding/Onboarding.md",
             "mode": "source"
           }
         }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e804afe1e4104fe8",
+    "id": "51c078b8788dcde1",
     "type": "split",
     "children": [
       {
-        "id": "e49c384f8fdefdc7",
+        "id": "49d51db932b71c15",
         "type": "tabs",
         "children": [
           {
-            "id": "07d6c39714e460a6",
+            "id": "2618495c3a6da246",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "a15935c6a40283bb",
+            "id": "8b61a29ea39da58e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -49,7 +49,7 @@
             }
           },
           {
-            "id": "0c78556ee9c98b17",
+            "id": "21ca2a96df850c18",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -63,20 +63,20 @@
     "width": 300
   },
   "right": {
-    "id": "8a0e250f49b84172",
+    "id": "1b244265e58f264b",
     "type": "split",
     "children": [
       {
-        "id": "f33899af3a843d8c",
+        "id": "89e90da8eae158e4",
         "type": "tabs",
         "children": [
           {
-            "id": "3ccea5e7b64d1051",
+            "id": "b71ff00716f47cbb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/Recruitment/Backend/Dots Squire Testing Task.md",
+                "file": "Onboarding/Onboarding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             }
           },
           {
-            "id": "15ec81aa0f06a854",
+            "id": "8c695fe866e2fba7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -99,12 +99,12 @@
             }
           },
           {
-            "id": "7893591d540bc215",
+            "id": "8d8951cfb6daf667",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Private/Recruitment/Backend/Dots Squire Testing Task.md"
+                "file": "Onboarding/Onboarding.md"
               }
             }
           }
@@ -115,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cf01fe9017cf93db",
+  "active": "902491616f8b37cc",
   "lastOpenFiles": [
-    "Private/Recruitment/Backend/Dots Squire Testing Task.md",
-    "Private/Developers/Руслан Тисанюк.md",
-    "Private/Developers/Владислав Кучерявый.md",
-    "onboarding/backend.md",
-    "onboarding/onboarding.md",
-    "onboarding/Frontend.md",
-    "Design/Design Checklist.md",
-    "grafana/loki.md",
-    "onboarding/React Native.md",
-    "Private/Developers/Максим Кучер.md"
+    "Onboarding/Onboarding.md",
+    "Onboarding/Frontend.md",
+    "Onboarding/Backend.md",
+    "Onboarding/React Native.md",
+    "Onboarding/👉 Hard Baseline.md",
+    "Onboarding/👉 Soft Baseline.md",
+    "Private/Tech Positions Guides/PM.md",
+    "Private/Process guides/Projects.md",
+    "Private/Process guides/Issues.md",
+    "Private/Process guides/Team.md"
   ]
 }

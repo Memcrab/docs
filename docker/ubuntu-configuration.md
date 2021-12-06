@@ -3,7 +3,7 @@ parent: Docker
 title: Ubuntu
 ---
 
-# Docker Compose usage
+# ubuntu-configuration
 {: .no_toc}
 
 ## Table of contents
